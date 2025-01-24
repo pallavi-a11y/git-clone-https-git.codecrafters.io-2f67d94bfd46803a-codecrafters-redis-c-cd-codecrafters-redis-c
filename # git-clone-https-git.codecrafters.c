@@ -41,3 +41,10 @@ setbuf(stdout, NULL);
 	close(server_fd);
 	return 0;
 }
+git commit -am "[any message]"
+git push origin master
+# Stage all changes and commit with a message
+git commit -am "Updated server configuration to handle multiple clients"
+
+# Push the commit to the remote repository
+git push origin master
